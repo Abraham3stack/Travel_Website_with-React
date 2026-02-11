@@ -18,7 +18,7 @@ function Navbar() {
 export function Whoops404() {
   const location = useLocation();
   return (
-    <div>
+    <div className="whoops">
       <h1>Whoops! Page Not Found at...{location.pathname}</h1>
     </div>
   );

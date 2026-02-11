@@ -304,6 +304,13 @@ main {
   font-size: 0.9rem;
 }
 
+.whoops {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  align-items: center;
+}
+
 /* MEDIA QUERY */
 @media (min-width: 768px) {
   /* Header */
